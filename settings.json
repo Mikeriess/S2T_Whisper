@@ -1,0 +1,9 @@
+{
+    "model": "syvai/hviske-v2",
+    "language": "da",
+    "output_format": ["json", "txt"],
+    "output_dir": "output",
+    "input_dir": "input",
+    "batch_size": 10,
+    "verbose": true
+}
