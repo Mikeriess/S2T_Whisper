@@ -1,10 +1,10 @@
 # Audio Batch Transskriberingsværktøj
 
-Dette værktøj giver dig mulighed for at transskribere lydfiler i batch ved hjælp af Whisper-modellen. Det understøtter flere outputformater og kan behandle flere filer parallelt.
+Dette (work-in-progress) værktøj giver dig mulighed for at transskribere lydfiler i batch ved hjælp af Whisper-modeller som eks. Syv.ai's Hviske. Det understøtter flere outputformater og kan behandle flere filer parallelt.
 
 ## Forudsætninger
 
-- Anaconda (anbefales til miljøstyring)
+- Anaconda (anbefales til styring af environments)
 - Python 3.8 eller højere
 - FFmpeg (til konvertering af lydfiler)
 
@@ -13,7 +13,7 @@ Dette værktøj giver dig mulighed for at transskribere lydfiler i batch ved hj�
 ### Windows
 1. Download og installer [Anaconda](https://www.anaconda.com/download) til Windows
 2. Åbn Anaconda Prompt
-3. Opret et nyt miljø:
+3. Opret et nyt environments:
    ```bash
    conda create -n transcription python=3.8
    conda activate transcription
@@ -26,7 +26,7 @@ Dette værktøj giver dig mulighed for at transskribere lydfiler i batch ved hj�
 ### macOS
 1. Download og installer [Anaconda](https://www.anaconda.com/download) til macOS
 2. Åbn Terminal
-3. Opret et nyt miljø:
+3. Opret et nyt environments:
    ```bash
    conda create -n transcription python=3.8
    conda activate transcription
